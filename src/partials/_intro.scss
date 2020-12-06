@@ -1,0 +1,56 @@
+
+.intro{
+    background-image: url(/images/image-mockups.png), url(/images/bg-intro-desktop.svg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: right -80px top -55px, right  -180px top -150px;
+    background-size: 40vw, 60vw;
+    background-color: $Very-Light-Gray;
+
+    .intro-text{
+        padding: 6rem  10rem;
+    }
+    h1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    p {
+        margin-top: -1em;
+    }
+    button{
+        margin-top: 1em;
+    }
+}
+
+.mobile-intro-text{
+    height: 50vw;
+    background-color: $White;
+    text-align: center;
+}
+
+// media queries
+@media screen and (max-width: 1020px){
+    .intro h1{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 880px){
+    .intro{
+        height: 100vh;
+    }
+    .intro-text{
+        max-width: 30vw;
+    }
+}
+@media screen and (max-width: 890px){
+    .intro{
+        background-image: url(/images/image-mockups.png), url(/images/bg-intro-mobile.svg);
+        background-position: left 80px top -195px, right  -100px top -290px;
+        background-size: 70vw, 120vw;
+    }
+    .intro-text{
+        padding: 6rem  1rem 1rem 1rem ;
+        position: relative;
+        margin-top: 25rem;
+    }
+}
