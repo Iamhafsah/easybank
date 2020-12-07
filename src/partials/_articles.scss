@@ -29,7 +29,7 @@
         height: 10rem;
     }
     div{
-        margin: .5em ;
+        margin-right: .7em ;
         margin-bottom: 1em;
         background-color: $White;
         padding: .3em;
@@ -37,7 +37,6 @@
     }
     h4{
         font-weight: 550;
-        color: grey;
     }
 }
 
@@ -54,6 +53,7 @@
         }
         img{
             width: 55vw;
+            height: 17rem;
         }
     }
     .article-paragraph, .article-div h4{
@@ -66,7 +66,12 @@
 }
 @media screen and (max-width: 500px){
     
-    .article-div h4{
+    .article-div{
+        h4{
         margin-bottom: 1em;
+        }
+        img{
+            height: 12rem;
+        }
     }
 }
