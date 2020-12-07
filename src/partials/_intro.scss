@@ -8,7 +8,7 @@
     background-color: $Very-Light-Gray;
 
     .intro-text{
-        padding: 6rem  10rem;
+        padding: 6rem  9rem;
     }
     h1{
         font-size: 3rem;
@@ -52,5 +52,32 @@
         padding: 6rem  1rem 1rem 1rem ;
         position: relative;
         margin-top: 25rem;
+    }
+}
+@media screen and (max-width: 500px){
+    .intro{
+        background-position: left 50px top -80px, right  -80px top -130px;
+        background-size: 70vw, 120vw;
+        text-align: center;
+
+        .intro-text{
+            padding: 0rem;
+            margin-top: 17rem;
+            margin: 17rem auto auto auto;
+            max-width: 70%;
+        }
+        h1{
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.4em;
+            text-align: center;
+        }
+        p{
+            text-align: left;
+            line-height: 1.3;
+        }
+        button{
+            text-align: center;
+        }
     }
 }
