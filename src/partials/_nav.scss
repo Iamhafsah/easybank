@@ -39,7 +39,7 @@ $none: none;
     background-image: linear-gradient(to right, 
 $Lime-Green , $Bright-Cyan);
 }
-.nav button:hover, .intro button:hover, .invite-link button:hover{
+.nav button:hover, .intro button:hover, .invite-link button:hover, .mobile-nav:hover, .close-menu:hover{
     color: $Dark-Blue;
     cursor: pointer;
 }
@@ -49,9 +49,9 @@ $Lime-Green , $Bright-Cyan);
     border: $none;
     border-radius: .5em;
     position: absolute;
-    margin-left: 25%;
+    margin-left: 15%;
     margin-top: 5em;
-    width: 50vw;
+    width: 70vw;
     padding: 3em 0em;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -88,6 +88,7 @@ $Lime-Green , $Bright-Cyan);
     font-size: 1.5rem;
     font-weight: bold;
     cursor: pointer;
+    color: $Dark-Blue;
 }
 
 // the hide and show class will be to hide and show the navigation on mobile

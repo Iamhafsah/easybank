@@ -51,6 +51,14 @@ footer{
     }
 }
 
+// my name in the attribution section
+.hafsah{
+    background-image: linear-gradient(to right, 
+    $Lime-Green , $Bright-Cyan);
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+}
+
 // media queries
 @media screen and (max-width: 890px){
     .overall-container{
