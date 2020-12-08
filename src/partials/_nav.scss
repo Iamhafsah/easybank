@@ -35,14 +35,26 @@ $none: none;
     border-radius: 1.5em;
     color: $White;
     font-size: 1em;
-    outline-color: $Bright-Cyan;
+    outline: none;
     background-image: linear-gradient(to right, 
 $Lime-Green , $Bright-Cyan);
 }
 .nav button:hover, .intro button:hover, .invite-link button:hover, .mobile-nav:hover, .close-menu:hover{
     color: $Dark-Blue;
     cursor: pointer;
+
 }
+
+button:active{
+    animation: button-click 100ms ease;
+}
+// button click animation 
+@keyframes button-click {
+    0%{transform: scale(1);}
+    50%{transform: scale(1.05);}
+    100%{transform: scale(1);}
+}
+
 .mobile-nav{
     background-color: $White;
     margin: auto;
