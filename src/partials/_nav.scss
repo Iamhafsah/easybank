@@ -55,6 +55,7 @@ $Lime-Green , $Bright-Cyan);
     padding: 3em 0em;
     font-weight: bold;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    z-index: 4;
 
     ul{
         text-align: center;
@@ -88,6 +89,8 @@ $Lime-Green , $Bright-Cyan);
     font-weight: bold;
     cursor: pointer;
 }
+
+// the hide and show class will be to hide and show the navigation on mobile
 .hide{
     display: $none;
 }

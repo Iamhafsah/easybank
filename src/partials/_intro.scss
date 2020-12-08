@@ -28,12 +28,15 @@
     text-align: center;
 }
 
-// media queries
+
+// media queries for devices with width 1020px and below
 @media screen and (max-width: 1020px){
     .intro h1{
         font-size: 2rem;
     }
 }
+
+// media query for devices with width 880px and above
 @media screen and (min-width: 880px){
     .intro{
         height: 100vh;
@@ -42,6 +45,8 @@
         max-width: 30vw;
     }
 }
+
+// media query for devices with 890mpx width and below
 @media screen and (max-width: 890px){
     .intro{
         background-image: url(/images/image-mockups.png), url(/images/bg-intro-mobile.svg);
@@ -54,6 +59,8 @@
         margin-top: 25rem;
     }
 }
+
+// media query for devices with 500px width and below
 @media screen and (max-width: 500px){
     .intro{
         background-position: left 50px top -80px, right  -80px top -130px;
