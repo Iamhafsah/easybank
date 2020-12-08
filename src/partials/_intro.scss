@@ -6,16 +6,19 @@
     background-position: right -80px top -55px, right  -180px top -150px;
     background-size: 40vw, 60vw;
     background-color: $Very-Light-Gray;
+    color: $Dark-Blue;
 
     .intro-text{
         padding: 6rem  9rem;
     }
     h1{
         font-size: 3rem;
-        font-weight: 500;
+        font-weight: 700;
     }
     p {
         margin-top: -1em;
+        font-size: 1.1em;
+        line-height: 1.4;
     }
     button{
         margin-top: 1em;
